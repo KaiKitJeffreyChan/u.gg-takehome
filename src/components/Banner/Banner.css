@@ -1,0 +1,126 @@
+.banner{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 0 1rem;
+}
+
+.background-gradient{
+   height: auto;
+   width: 100%;
+   mask-image: linear-gradient(89.97deg, #FFFFFF 40.9%, rgba(255, 255, 255, 0.33) 99.97%);
+   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,0) 30%,rgba(0,0,0,0.65) 100%);
+}
+
+.text-section {
+  position: absolute;
+  top: 64px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 440px;
+  height: 100%;
+  color: black;
+  text-align: left;
+}
+
+.username{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;  
+    color: #0175FF;
+    margin-bottom: 10px;
+}
+
+.username-icon{
+    width: 18px;
+    height: auto;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+
+.username-icon-right{
+    width: 16px;
+    height: auto;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.views{
+    width: 12px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.likes{
+    width: 14px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.reactions{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.vertical-line{
+    height: 22px;
+    width: 0.8px;
+    background-color: black;
+    margin: 0 12px;
+}
+
+.title{
+    margin-top: -8px;
+    margin-bottom: -8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+.description{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.banner-button{
+    background: #027AFF;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    height: 36px;
+    width: 111px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 300ms;
+}
+
+.banner-button:hover{
+    filter: brightness(1.2);
+}
+
+
+.center-horizontally{
+    display: flex;
+    align-items: center;
+}

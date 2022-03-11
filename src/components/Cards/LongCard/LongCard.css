@@ -1,0 +1,112 @@
+.long-card{
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+    width: 750px;
+}
+
+.long-card-img{
+    border-radius: 8px;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);;
+}
+
+.center-horizontally-user{
+    display: flex;
+    align-items: center;
+    margin-bottom: -16px;
+}
+
+.center-horizontally-reactions{
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+}
+
+.text-section{
+    padding-left: 1rem;
+}
+
+.tag{
+    background: #F4F7FC;
+    border-radius: 4px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 0.65);
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    padding: 4px 8px;
+}
+
+.user-icon{
+    border-radius: 50%;
+    height: 18px;
+    margin-right: 5px;
+}
+
+.reactions{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    opacity: 80%;
+    line-height: 20px;
+    color: black;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.username{
+    margin-right: 10px;
+}
+
+.username-text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.vertical-line{
+    height: 22px;
+    width: 0.8px;
+    background-color: black;
+    margin: 0 12px;
+}
+
+.title{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    
+}
+
+.description{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(0, 0, 0, 0.65);
+    width: 80%;
+    margin-top: -12px;
+}
+
+.views{
+    width: 12px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.likes{
+    width: 14px;
+    height: auto;
+    margin-right: 5px;
+}

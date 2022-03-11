@@ -1,0 +1,83 @@
+.small-card{
+    width: 275px;
+    height: 350px;
+    position: relative;
+    text-align: left;
+}
+
+.text-section{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+}
+
+.small-card-image{
+    height: 100%;
+    width: auto;
+    border-radius: 8px;
+}
+
+
+.gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    background: linear-gradient(180deg, rgba(0, 34, 72, 0) 0%, #002248 100%);
+}
+
+.username-text{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.title{
+    margin-top: -10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.reactions{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+
+
+.center-horizontally{
+    display: flex;
+    align-items: center;
+    margin-top: -18px;
+}
+
+.vertical-line{
+    height: 22px;
+    width: 0.8px;
+    background-color: white;
+    margin: 0 12px;
+}
+
+.views{
+    width: 12px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.likes{
+    width: 14px;
+    height: auto;
+    margin-right: 5px;
+}
