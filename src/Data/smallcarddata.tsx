@@ -3,6 +3,7 @@ import ez from "../assets/SmallCardImages/ez.png"
 import taliyah from "../assets/SmallCardImages/taliyah.png"
 import img1 from "../assets/SmallCardImages/img1.png"
 
+
 const smallcarddata = [
     {
         username: "TailMid9999",

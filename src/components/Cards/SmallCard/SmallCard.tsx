@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import { Interface } from 'readline'
 import './SmallCard.css'
 import ViewsIcon from '../../../assets/SmallCardImages/Views.png'
 import LikesIcon from "../../../assets/SmallCardImages/Likes.png"
@@ -13,7 +12,6 @@ interface ISmallCard {
 }
 
 const SmallCard = ({ username, title, likes, views, img }: ISmallCard) => {
-
     return (
         <div className="small-card">
             <img src={img} className="small-card-image" />
@@ -32,7 +30,6 @@ const SmallCard = ({ username, title, likes, views, img }: ISmallCard) => {
                     </span>
                 </span>
             </div>
-
         </div >
     )
 }

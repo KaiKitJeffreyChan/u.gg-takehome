@@ -21,7 +21,6 @@ const Navbar = () => {
                         <img src={logo} className="logo-onlyguides" />
                         <img src={beta} className="logo-beta" />
                     </span>
-
                     <a className="games">Games<MdOutlineArrowDropDown /></a>
                     <a className="kickoff-contest"><RiRocketFill className="rocket" /> Kickoff Contest</a>
                     <input className="search" placeholder="Search for guides..." />
@@ -37,7 +36,6 @@ const Navbar = () => {
                         <Dropdown>
                         </Dropdown>
                     </NavButton>
-
                 </span>
             </div>
         </nav>

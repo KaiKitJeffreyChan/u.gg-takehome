@@ -25,8 +25,6 @@ const App = () => {
       <div className="main-banner">
         <Banner />
       </div>
-
-
       <div className="card-carosel">
         <div className="all-card-carosel">
           <span className="sub-heading">
@@ -42,22 +40,15 @@ const App = () => {
               </div>
             ))}
           </span>
+          {longcarddata.map((card, i) =>
+            <div className="main-long-card">
+              <LongCard username={card.username} userImage={card.userImage} description={card.description} title={card.title} likes={card.likes} views={card.views} img={img2} />
+            </div>
+          )}
         </div>
-      </div>
-
-
-      <div className="vertical-carosel">
-        {longcarddata.map((card, i) => {
-          <div className="main-long-card">
-            <LongCard username={card.username} userImage={card.userImage} description={card.description} title="2022 COMPLETE Yummi Guide Support" likes={203028} views={93039} img={img2} />
-          </div>
-        })}
       </div>
       <Footer />
     </div>
-
-
-
   );
 }
 
