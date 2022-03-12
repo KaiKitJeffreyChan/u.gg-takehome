@@ -16,21 +16,19 @@ const SmallCard = ({ username, title, likes, views, img }: ISmallCard) => {
 
     return (
         <div className="small-card">
-
-
             <img src={img} className="small-card-image" />
             <div className="gradient">
-                <span className="text-section">
-                    <div className="username">
-                        <p className="username-text">{username}</p>
+                <span className="sc-text-section">
+                    <div className="sc-username">
+                        <p className="sc-username-text">{username}</p>
                     </div>
-                    <h2 className="title">{title}</h2>
-                    <span className="center-horizontally">
-                        <img src={ViewsIcon} className="views" />
-                        <p className="reactions">1,302,302 views</p>
+                    <h2 className="sc-title">{title}</h2>
+                    <span className="sc-center-horizontally">
+                        <img src={ViewsIcon} className="sc-views" />
+                        <p className="sc-reactions">{views} views</p>
                         <div className="vertical-line" />
-                        <img src={LikesIcon} className="likes" />
-                        <p className="reactions"> 93,039 </p>
+                        <img src={LikesIcon} className="sc-likes" />
+                        <p className="sc-reactions"> {likes} </p>
                     </span>
                 </span>
             </div>

@@ -7,26 +7,26 @@
 
 .long-card-img{
     border-radius: 8px;
-    box-shadow: 2px 3px rgba(0, 0, 0, 0.2);;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.25);;
 }
 
-.center-horizontally-user{
+.lc-center-horizontally-user{
     display: flex;
     align-items: center;
     margin-bottom: -16px;
 }
 
-.center-horizontally-reactions{
+.lc-center-horizontally-reactions{
     display: flex;
     align-items: center;
     margin-top: -10px;
 }
 
-.text-section{
+.lc-text-section{
     padding-left: 1rem;
 }
 
-.tag{
+.lc-tag{
     background: #F4F7FC;
     border-radius: 4px;
     font-family: 'Inter', sans-serif;
@@ -35,19 +35,19 @@
     font-size: 12px;
     line-height: 16px;
     color: rgba(0, 0, 0, 0.65);
-    margin-right: 10px;
+    margin-right: 12px;
     outline: none;
     border: none;
-    padding: 4px 8px;
+    padding: 8px 12px;
 }
 
-.user-icon{
+.lc-user-icon{
     border-radius: 50%;
     height: 18px;
     margin-right: 5px;
 }
 
-.reactions{
+.lc-reactions{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -58,11 +58,11 @@
     color: rgba(0, 0, 0, 0.75);
 }
 
-.username{
+.lc-username{
     margin-right: 10px;
 }
 
-.username-text{
+.lc-username-text{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -78,7 +78,7 @@
     margin: 0 12px;
 }
 
-.title{
+.lc-title{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -88,7 +88,7 @@
     
 }
 
-.description{
+.lc-description{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -99,13 +99,13 @@
     margin-top: -12px;
 }
 
-.views{
+.lc-views{
     width: 12px;
     height: auto;
     margin-right: 5px;
 }
 
-.likes{
+.lc-likes{
     width: 14px;
     height: auto;
     margin-right: 5px;

@@ -19,7 +19,7 @@ const Banner = (props: any) => {
                 <span className="center-horizontally">
                     <img src={ViewsIcon} className="views" />
                     <p className="reactions">1,302,302 views</p>
-                    <div className="vertical-line" />
+                    <div className="vertical-line" ></div>
                     <img src={LikesIcon} className="likes" />
                     <p className="reactions"> 93,039 </p>
                 </span>

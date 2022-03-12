@@ -5,7 +5,7 @@
     text-align: left;
 }
 
-.text-section{
+.sc-text-section{
     position: absolute;
     bottom: 8px;
     left: 16px;
@@ -17,7 +17,6 @@
     border-radius: 8px;
 }
 
-
 .gradient{
     position: absolute;
     top: 0;
@@ -28,7 +27,7 @@
     background: linear-gradient(180deg, rgba(0, 34, 72, 0) 0%, #002248 100%);
 }
 
-.username-text{
+.sc-username-text{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -37,7 +36,7 @@
     color: #FFFFFF;
 }
 
-.title{
+.sc-title{
     margin-top: -10px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -47,7 +46,7 @@
     color: #FFFFFF;
 }
 
-.reactions{
+.sc-reactions{
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 200;
@@ -57,7 +56,7 @@
 }
 
 
-.center-horizontally{
+.sc-center-horizontally{
     display: flex;
     align-items: center;
     margin-top: -18px;
@@ -70,13 +69,13 @@
     margin: 0 12px;
 }
 
-.views{
+.sc-views{
     width: 12px;
     height: auto;
     margin-right: 5px;
 }
 
-.likes{
+.sc-likes{
     width: 14px;
     height: auto;
     margin-right: 5px;

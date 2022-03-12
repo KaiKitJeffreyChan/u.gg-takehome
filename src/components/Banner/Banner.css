@@ -1,7 +1,6 @@
 .banner{
     width: 100%;
     height: auto;
-    position: relative;
     text-align: center;
     color: white;
     padding: 0 1rem;
@@ -17,7 +16,7 @@
 .text-section {
   position: absolute;
   top: 64px;
-  left: 300px;
+  left: 15vw;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -66,7 +65,7 @@
 .reactions{
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 12px;
     line-height: 20px;
     color: #000000;
@@ -92,7 +91,7 @@
 .description{
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: rgba(0, 0, 0, 0.6);

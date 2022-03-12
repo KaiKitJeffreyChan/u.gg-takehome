@@ -18,23 +18,23 @@ const LongCard = ({ username, title, likes, views, img, description, userImage }
     return (
         <div className="long-card">
             <img src={img} className="long-card-img" />
-            <span className="text-section">
-                <span className="center-horizontally-user">
-                    <img src={userImage} className="user-icon" />
-                    <div className="username">
-                        <p className="username-text">{username}</p>
+            <span className="lc-text-section">
+                <span className="lc-center-horizontally-user">
+                    <img src={userImage} className="lc-user-icon" />
+                    <div className="lc-username">
+                        <p className="lc-username-text">{username}</p>
                     </div>
-                    <button className="tag"> Champion Guide </button>
-                    <button className="tag"> Draven </button>
+                    <button className="lc-tag"> Champion Guide </button>
+                    <button className="lc-tag"> Draven </button>
                 </span>
-                <h2 className="title">{title}</h2>
-                <p className="description">{description}</p>
-                <span className="center-horizontally-reactions">
-                    <img src={ViewsIcon} className="views" />
-                    <p className="reactions">1,302,302 views</p>
+                <h2 className="lc-title">{title}</h2>
+                <p className="lc-description">{description}</p>
+                <span className="lc-center-horizontally-reactions">
+                    <img src={ViewsIcon} className="lc-views" />
+                    <p className="lc-reactions">{views} views</p>
                     <div className="vertical-line" />
-                    <img src={LikesIcon} className="likes" />
-                    <p className="reactions"> 93,039 </p>
+                    <img src={LikesIcon} className="lc-likes" />
+                    <p className="lc-reactions"> {likes} </p>
                 </span>
             </span>
         </div>
